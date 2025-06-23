@@ -1,4 +1,4 @@
-Sistema de Gestão de Contas Bancárias
+
 # Sistema de Gestão de Contas Bancárias
 
 ## Descrição do Projeto
@@ -11,11 +11,13 @@ O desenvolvimento seguiu as melhores práticas de Orientação a Objetos, encaps
 
 ## Autores
 
-* **Nome do Aluno 1** (RA: XXXXXX)
-* **Nome do Aluno 2** (RA: XXXXXX)
-* **Nome do Aluno 3** (RA: XXXXXX)
-* **Nome do Aluno 4** (RA: XXXXXX)
-* **Nome do Aluno 5** (RA: XXXXXX)
+Integrantes			        	         |	        RA
+1: Lucas Guilherme Ávila Barreto 	         |	  1232021323
+2: Gabriel Sousa Bastos		         |	  123115047
+3: Daniel De Moura Renda 		         |	  124115549
+4: Gabriela Falcão Penna Campos  Abreu  |   12311964
+5: Yago Marquezini Magalhães 	         |    12319847
+
 
 ---
 
