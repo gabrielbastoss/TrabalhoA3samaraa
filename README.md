@@ -11,7 +11,6 @@ O desenvolvimento seguiu as melhores práticas de Orientação a Objetos, encaps
 
 ## Autores
 
-Integrantes			        	         |	        RA
 1: Lucas Guilherme Ávila Barreto 	         |	  1232021323
 2: Gabriel Sousa Bastos		         |	  123115047
 3: Daniel De Moura Renda 		         |	  124115549
