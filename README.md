@@ -24,10 +24,10 @@ O desenvolvimento seguiu as melhores práticas de Orientação a Objetos, encaps
 
 O sistema foi modelado com base no seguinte diagrama de classes, que define a estrutura e o relacionamento entre as entidades.
 
-![Diagrama UML do Sistema Bancário] ![image](https://github.com/user-attachments/assets/deb1bf02-2870-4c5d-b4f0-4ea6d8d4396b)
+[Diagrama UML do Sistema Bancário] ![image](https://github.com/user-attachments/assets/deb1bf02-2870-4c5d-b4f0-4ea6d8d4396b)
 
 
-*(Observação: Substitua o texto acima pelo caminho real da imagem do diagrama no seu projeto para que ela apareça aqui).*
+
 
 ---
 
