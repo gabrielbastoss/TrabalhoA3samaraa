@@ -11,10 +11,10 @@ O desenvolvimento seguiu as melhores práticas de Orientação a Objetos, encaps
 
 ## Autores
 
-1: Lucas Guilherme Ávila Barreto 	         |	  1232021323
-2: Gabriel Sousa Bastos		         |	  123115047
-3: Daniel De Moura Renda 		         |	  124115549
-4: Gabriela Falcão Penna Campos  Abreu  |   12311964
+1: Lucas Guilherme Ávila Barreto 	         |	  1232021323,
+2: Gabriel Sousa Bastos		         |	  123115047,
+3: Daniel De Moura Renda 		         |	  124115549,
+4: Gabriela Falcão Penna Campos  Abreu  |   12311964,
 5: Yago Marquezini Magalhães 	         |    12319847
 
 
