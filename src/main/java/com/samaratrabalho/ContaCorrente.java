@@ -10,14 +10,13 @@ public class ContaCorrente extends Conta{
 
     @Override
     public void imprimir() {
-        System.out.println("Seu salário é : "+this.salario);
+        System.out.println("Conta Corrente | Salário base: "+this.salario);
     }
 
     public double getSalario(){
         return this.salario;
     }
 
-    // Corrigido o tipo do parâmetro de int para double
     public void setSalario(double salario){
         this.salario = salario;
     }

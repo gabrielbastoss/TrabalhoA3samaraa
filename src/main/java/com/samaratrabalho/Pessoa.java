@@ -1,16 +1,16 @@
 package com.samaratrabalho;
+
 import java.util.ArrayList;
 
 public abstract class Pessoa {
     private String nome;
     private ArrayList<Conta> listacontas;
 
-    public Pessoa(String nome){ // Construtor corrigido para não exigir a lista
+    public Pessoa(String nome){
         this.nome = nome;
-        this.listacontas = new ArrayList<>(); // A lista é criada aqui
+        this.listacontas = new ArrayList<>();
     }
 
-    // Getters e Setters para 'nome'
     public String getNome() {
         return nome;
     }
@@ -19,12 +19,10 @@ public abstract class Pessoa {
         this.nome = nome;
     }
 
-    // Getter para a lista de contas
     public ArrayList<Conta> getListaContas(){
         return this.listacontas;
     }
 
-    // Método para adicionar conta (corrigindo o antigo 'setListaContas')
     public void adicionarConta(Conta conta){
         this.listacontas.add(conta);
     }

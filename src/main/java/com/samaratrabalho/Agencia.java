@@ -7,12 +7,10 @@ public class Agencia {
         this.numero = numero;
     }
 
-    // Getter adicionado
     public int getNumero() {
         return numero;
     }
 
-    // Setter adicionado
     public void setNumero(int numero) {
         this.numero = numero;
     }

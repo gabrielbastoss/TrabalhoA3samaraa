@@ -10,10 +10,9 @@ public class ContaPoupanca extends Conta{
 
     @Override
     public void imprimir() {
-        System.out.println("Seu rendimento é : "+this.rendimento);
+        System.out.println("Conta Poupança | Rendimento: "+this.rendimento + "%");
     }
 
-    // Métodos implementados
     public double getRendimento(){
         return this.rendimento;
     }

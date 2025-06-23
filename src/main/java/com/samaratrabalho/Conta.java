@@ -6,11 +6,10 @@ public abstract class Conta implements OperacaoBancaria {
     private Agencia agencia;
 
     public Conta(int num, Agencia agencia){
-        this.numero = num; // Atribuição corrigida
-        this.agencia = agencia; // Atribuição corrigida
+        this.numero = num;
+        this.agencia = agencia;
     }
 
-    // Getters e Setters adicionados/corrigidos
     public int getNumero() {
         return numero;
     }
@@ -20,7 +19,7 @@ public abstract class Conta implements OperacaoBancaria {
     }
 
     public double getSaldo(){
-        return this.saldo; // Corrigido
+        return this.saldo;
     }
 
     public Agencia getAgencia() {
@@ -31,15 +30,20 @@ public abstract class Conta implements OperacaoBancaria {
         this.agencia = agencia;
     }
     
-    // Métodos da interface
+    // CORRIGIDO: Validação para impedir depósito de valor negativo.
     @Override
     public void depositar(double valor){
-        this.saldo = this.saldo + valor;
+        if (valor > 0) {
+            this.saldo = this.saldo + valor;
+        } else {
+            System.err.println("Erro: Valor para depósito deve ser positivo.");
+        }
     }
 
+    // CORRIGIDO: Validação para impedir saque de valor negativo.
     @Override
-    public int sacar(double valor){ // Corrigido para retornar int
-        if (this.saldo >= valor){
+    public int sacar(double valor){
+        if (valor > 0 && this.saldo >= valor){
             this.saldo = this.saldo - valor;
             return 1; // 1 para sucesso
         }
